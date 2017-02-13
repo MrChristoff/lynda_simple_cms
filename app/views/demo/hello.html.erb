@@ -9,4 +9,11 @@
 
 <% string1 = 'World' %>
 <% string2 = '!' %>
-<%="Hello #{string1}#{string2}" %>
+<%="Hello #{string1}#{string2}" %><br />
+
+<% @array.each do |n| %>
+  <%= n %><br />
+<% end %>
+<br />
+
+<%= link_to('Index page', {:action => 'index'})%><br />
