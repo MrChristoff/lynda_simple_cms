@@ -3,3 +3,5 @@
 <a href="/demo/hello">Hello page 1</a><br />
 <!--rails 'link_to' helper method  -->
 <%= link_to("Hello page 2", {:action => 'hello'}) %><br />
+
+<%= link_to("Hello page with parameters", {:action => 'hello', :page => 5, :id => 20}) %><br />
